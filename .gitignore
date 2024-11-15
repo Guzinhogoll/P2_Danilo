@@ -1,0 +1,10 @@
+# Pastas e arquivos do Unity que você geralmente não precisa enviar para o Git
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Pp]ackages/
+*.csproj
+*.sln
+.vs/
