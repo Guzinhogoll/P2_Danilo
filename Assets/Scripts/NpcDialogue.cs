@@ -48,7 +48,7 @@ public class NpcDialogue : MonoBehaviour
         {
             StartCoroutine(ShowDialogue());
         }
-        else 
+        else
         {
             dialoguePanel.SetActive(false);
             startDialogue = false;
@@ -70,7 +70,7 @@ public class NpcDialogue : MonoBehaviour
     IEnumerator ShowDialogue()
     {
         dialogueText.text = "";
-        foreach (char letter in dialogueNpc[dialogueIndex]) 
+        foreach (char letter in dialogueNpc[dialogueIndex])
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(0.1f);
@@ -84,12 +84,12 @@ public class NpcDialogue : MonoBehaviour
             readyToSpeak = true;
         }
     }
-        private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
         {
-            if (collision.CompareTag("Player"))
-            {
-                readyToSpeak = false;
-            }
+            readyToSpeak = false;
         }
-    
+    }
+
 }

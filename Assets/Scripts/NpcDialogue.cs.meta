@@ -3,7 +3,12 @@ guid: 63befeb93745d3749a59ba1f4a260bec
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dialoguePanel: {instanceID: 0}
+  - dialogueText: {instanceID: 0}
+  - nameNpc: {instanceID: 0}
+  - imageNpc: {instanceID: 0}
+  - spriteNpc: {fileID: 21300000, guid: 431cb51495793fe4c949d8c7bfdca7c8, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
