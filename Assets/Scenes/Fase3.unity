@@ -2564,7 +2564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 584119883}
   minX: 0.1
-  maxX: 21.8
+  maxX: 20.7
   minY: 0.1
   maxY: 5
   timeLerp: 0.05
@@ -4088,7 +4088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' 0'
+  m_Text: '     0'
 --- !u!222 &821380597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8823,7 +8823,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -629, y: 334}
+  m_AnchoredPosition: {x: -629, y: 351}
   m_SizeDelta: {x: 74.4154, y: 74.4154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807228126
@@ -8972,9 +8972,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Time:
-
-'
+  m_Text: "Time:  \n"
 --- !u!222 &1810382922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9488,7 +9486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeeb6712573f074e82a5dd3edfc05ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ultimaFase: 1
+  ultimaFase: 0
   finish: {fileID: 8300000, guid: 21693d70c8426174e8536cad2d733f01, type: 3}
   audioS: {fileID: 1886637785}
 --- !u!82 &1886637785
